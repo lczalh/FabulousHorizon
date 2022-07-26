@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "jsen",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rogerluan/JSEN",
+      "state" : {
+        "revision" : "dd73b21b170e002c709e397dbfa915c30b47a53b",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "kodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JARMourato/Kodable.git",
+      "state" : {
+        "revision" : "cc8e7675a1af0060ae4f5d7dfadaf7fff5d59338",
+        "version" : "1.8.1"
+      }
+    },
+    {
+      "identity" : "runtime",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wickwirew/Runtime",
+      "state" : {
+        "revision" : "dad03135d7701a4e7b3a4051e75d6b37bd8e178e",
+        "version" : "2.2.4"
+      }
+    }
+  ],
+  "version" : 2
+}
