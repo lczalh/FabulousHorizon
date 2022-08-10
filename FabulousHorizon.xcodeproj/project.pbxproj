@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8621569A28A35A00004F1B4B /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621569928A35A00004F1B4B /* BannerView.swift */; };
+		8621569C28A35E0E004F1B4B /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621569B28A35E0E004F1B4B /* BannerModel.swift */; };
+		862156C628A3A9B8004F1B4B /* JSEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862156C028A3A9B8004F1B4B /* JSEN.swift */; };
+		862156C728A3A9B8004F1B4B /* JSENRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862156C128A3A9B8004F1B4B /* JSENRepresentable.swift */; };
+		862156C828A3A9B8004F1B4B /* JSEN+KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862156C228A3A9B8004F1B4B /* JSEN+KeyPath.swift */; };
+		862156C928A3A9B8004F1B4B /* JSEN+SyntacticSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862156C328A3A9B8004F1B4B /* JSEN+SyntacticSugar.swift */; };
+		862156CA28A3A9B8004F1B4B /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862156C428A3A9B8004F1B4B /* KeyPath.swift */; };
+		862156CB28A3A9B8004F1B4B /* JSEN+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862156C528A3A9B8004F1B4B /* JSEN+Codable.swift */; };
 		D011DB81288D9E050033DD03 /* FabulousHorizonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011DB80288D9E050033DD03 /* FabulousHorizonApp.swift */; };
 		D011DB83288D9E050033DD03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011DB82288D9E050033DD03 /* ContentView.swift */; };
 		D011DB85288D9E060033DD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D011DB84288D9E060033DD03 /* Assets.xcassets */; };
@@ -14,11 +22,18 @@
 		D011DB96288D9EDE0033DD03 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011DB95288D9EDE0033DD03 /* BaseView.swift */; };
 		D011DB99288DA1050033DD03 /* MainEntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011DB98288DA1050033DD03 /* MainEntranceView.swift */; };
 		D011DB9C288DA2740033DD03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011DB9B288DA2740033DD03 /* HomeView.swift */; };
-		D0EE1B1A289038A600C9D353 /* Kodable in Frameworks */ = {isa = PBXBuildFile; productRef = D0EE1B19289038A600C9D353 /* Kodable */; };
 		D0EE1B1D2890395A00C9D353 /* VenderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE1B1C2890395A00C9D353 /* VenderHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8621569928A35A00004F1B4B /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		8621569B28A35E0E004F1B4B /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		862156C028A3A9B8004F1B4B /* JSEN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSEN.swift; sourceTree = "<group>"; };
+		862156C128A3A9B8004F1B4B /* JSENRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSENRepresentable.swift; sourceTree = "<group>"; };
+		862156C228A3A9B8004F1B4B /* JSEN+KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSEN+KeyPath.swift"; sourceTree = "<group>"; };
+		862156C328A3A9B8004F1B4B /* JSEN+SyntacticSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSEN+SyntacticSugar.swift"; sourceTree = "<group>"; };
+		862156C428A3A9B8004F1B4B /* KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPath.swift; sourceTree = "<group>"; };
+		862156C528A3A9B8004F1B4B /* JSEN+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSEN+Codable.swift"; sourceTree = "<group>"; };
 		D011DB7D288D9E050033DD03 /* FabulousHorizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabulousHorizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D011DB80288D9E050033DD03 /* FabulousHorizonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabulousHorizonApp.swift; sourceTree = "<group>"; };
 		D011DB82288D9E050033DD03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,13 +50,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EE1B1A289038A600C9D353 /* Kodable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8621566F28A35882004F1B4B /* Vender(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+				862156BF28A3A9B8004F1B4B /* JSEN-1.2.1 */,
+			);
+			path = "Vender(第三方库)";
+			sourceTree = "<group>";
+		};
+		8621569728A35906004F1B4B /* Components(组件) */ = {
+			isa = PBXGroup;
+			children = (
+				8621569828A359D6004F1B4B /* BannerView(横幅) */,
+			);
+			path = "Components(组件)";
+			sourceTree = "<group>";
+		};
+		8621569828A359D6004F1B4B /* BannerView(横幅) */ = {
+			isa = PBXGroup;
+			children = (
+				8621569928A35A00004F1B4B /* BannerView.swift */,
+				8621569B28A35E0E004F1B4B /* BannerModel.swift */,
+			);
+			path = "BannerView(横幅)";
+			sourceTree = "<group>";
+		};
+		862156BF28A3A9B8004F1B4B /* JSEN-1.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				862156C028A3A9B8004F1B4B /* JSEN.swift */,
+				862156C128A3A9B8004F1B4B /* JSENRepresentable.swift */,
+				862156C228A3A9B8004F1B4B /* JSEN+KeyPath.swift */,
+				862156C328A3A9B8004F1B4B /* JSEN+SyntacticSugar.swift */,
+				862156C428A3A9B8004F1B4B /* KeyPath.swift */,
+				862156C528A3A9B8004F1B4B /* JSEN+Codable.swift */,
+			);
+			path = "JSEN-1.2.1";
+			sourceTree = "<group>";
+		};
 		D011DB74288D9E040033DD03 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +113,9 @@
 		D011DB7F288D9E050033DD03 /* FabulousHorizon */ = {
 			isa = PBXGroup;
 			children = (
+				8621569728A35906004F1B4B /* Components(组件) */,
+				8621566F28A35882004F1B4B /* Vender(第三方库) */,
 				D011DB94288D9EBE0033DD03 /* Config(配置) */,
-				D011DB93288D9EAF0033DD03 /* Vender(第三方库) */,
 				D011DB92288D9EA70033DD03 /* Utility(工具) */,
 				D011DB91288D9E930033DD03 /* Network(网络) */,
 				D011DB90288D9E870033DD03 /* Module(模块) */,
@@ -123,13 +176,6 @@
 			path = "Utility(工具)";
 			sourceTree = "<group>";
 		};
-		D011DB93288D9EAF0033DD03 /* Vender(第三方库) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Vender(第三方库)";
-			sourceTree = "<group>";
-		};
 		D011DB94288D9EBE0033DD03 /* Config(配置) */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +224,6 @@
 			);
 			name = FabulousHorizon;
 			packageProductDependencies = (
-				D0EE1B19289038A600C9D353 /* Kodable */,
 			);
 			productName = FabulousHorizon;
 			productReference = D011DB7D288D9E050033DD03 /* FabulousHorizon.app */;
@@ -209,7 +254,6 @@
 			);
 			mainGroup = D011DB74288D9E040033DD03;
 			packageReferences = (
-				D0EE1B18289038A600C9D353 /* XCRemoteSwiftPackageReference "Kodable" */,
 			);
 			productRefGroup = D011DB7E288D9E050033DD03 /* Products */;
 			projectDirPath = "";
@@ -238,10 +282,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D011DB96288D9EDE0033DD03 /* BaseView.swift in Sources */,
+				862156C628A3A9B8004F1B4B /* JSEN.swift in Sources */,
 				D011DB99288DA1050033DD03 /* MainEntranceView.swift in Sources */,
 				D0EE1B1D2890395A00C9D353 /* VenderHeader.swift in Sources */,
+				8621569C28A35E0E004F1B4B /* BannerModel.swift in Sources */,
+				862156C828A3A9B8004F1B4B /* JSEN+KeyPath.swift in Sources */,
 				D011DB83288D9E050033DD03 /* ContentView.swift in Sources */,
+				862156C928A3A9B8004F1B4B /* JSEN+SyntacticSugar.swift in Sources */,
+				862156CB28A3A9B8004F1B4B /* JSEN+Codable.swift in Sources */,
+				862156CA28A3A9B8004F1B4B /* KeyPath.swift in Sources */,
+				8621569A28A35A00004F1B4B /* BannerView.swift in Sources */,
 				D011DB9C288DA2740033DD03 /* HomeView.swift in Sources */,
+				862156C728A3A9B8004F1B4B /* JSENRepresentable.swift in Sources */,
 				D011DB81288D9E050033DD03 /* FabulousHorizonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FabulousHorizon/Preview Content\"";
-				DEVELOPMENT_TEAM = KU7QS49523;
+				DEVELOPMENT_TEAM = RN7XGGD36B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -403,7 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FabulousHorizon/Preview Content\"";
-				DEVELOPMENT_TEAM = KU7QS49523;
+				DEVELOPMENT_TEAM = BA55LHRXN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -447,25 +499,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D0EE1B18289038A600C9D353 /* XCRemoteSwiftPackageReference "Kodable" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/JARMourato/Kodable.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.8.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D0EE1B19289038A600C9D353 /* Kodable */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D0EE1B18289038A600C9D353 /* XCRemoteSwiftPackageReference "Kodable" */;
-			productName = Kodable;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D011DB75288D9E040033DD03 /* Project object */;
 }
